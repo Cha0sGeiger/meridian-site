@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian Support</title>
+<meta name="description" content="Help with Meridian, the fasting clock and journal: contact, Premium, the timer, widgets, Apple Watch, iCloud, Apple Health and backups.">
+<meta name="theme-color" content="#e6dfd3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#100e0c" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root { --paper:#e6dfd3; --surface:#f7f3ec; --ink:#1b1612; --muted:#534c44; --line:#d4cdc0; --spruce:#1e4f45; --persimmon:#b85a28; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#100e0c; --surface:#1d1a16; --ink:#f4efe8; --muted:#c4baae; --line:#3a342c; --spruce:#9ed9cb; --persimmon:#f0b184; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-text-size-adjust:100%; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 80px; }
+  .top { display:flex; align-items:center; gap:10px; padding-bottom:22px; margin-bottom:32px; border-bottom:1px solid var(--line); font-size:13px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; }
+  .top a { color:var(--persimmon); text-decoration:none; }
+  .top img { width:28px; height:28px; border-radius:7px; }
+  .eyebrow, h2 { font-size:12px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); }
+  h1 { font:400 48px/1.05 "Instrument Serif", Georgia, serif; margin:6px 0 16px; }
+  h2 { margin:44px 0 6px; }
+  h3 { font:400 24px/1.2 "Instrument Serif", Georgia, serif; margin:28px 0 4px; }
+  .lede { font:italic 400 22px/1.4 "Instrument Serif", Georgia, serif; margin:0 0 28px; }
+  a { color:var(--spruce); }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:18px; padding:20px 22px; }
+  .card a.mail { font:400 26px "Instrument Serif", Georgia, serif; text-decoration:none; border-bottom:1px solid var(--persimmon); color:var(--ink); word-break:break-all; }
+  details { border-bottom:1px solid var(--line); }
+  summary { cursor:pointer; list-style:none; padding:16px 28px 16px 0; position:relative; font-weight:600; }
+  summary::-webkit-details-marker { display:none; }
+  summary::after { content:"+"; position:absolute; right:2px; top:14px; font-size:20px; color:var(--persimmon); }
+  details[open] summary::after { content:"−"; }
+  details p, details ul { margin:0 0 16px; color:var(--ink); }
+  ul { padding-left:20px; }
+  li { margin:6px 0; }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<div class="top"><img src="icon.png" alt=""><a href="./">Meridian</a></div>
+<p class="eyebrow">Support</p>
+<h1>Help with Meridian</h1>
+<p class="lede">Questions, problems or ideas: write, and a person answers.</p>
+<div class="card">
+  <p class="eyebrow" style="margin-top:0">Email</p>
+  <a class="mail" href="mailto:meridian.fasting.app@gmail.com">meridian.fasting.app@gmail.com</a>
+  <p style="margin:12px 0 0;color:var(--muted);font-size:14px">From the app: Settings → Contact support fills in your app version.</p>
+</div>
+
+<h2>The timer</h2>
+<details><summary>I forgot to press Start. Can I fix the time?</summary><p>Yes. While the fast runs, tap "Change the start" under End fast. For a fast that already ended, open History, pick the day and tap the fast, or use "Add a fast".</p></details>
+<details><summary>What does "Window open" or "Not started" mean?</summary><p>Your plan's fasting window has begun, but no fast is running yet. Tap Start fast, or "I started at…" if you stopped eating at the planned time.</p></details>
+<details><summary>Can I move today's eating window?</summary><p>Use −30 and +30 under the clock. It changes only that day and does not change your plan.</p></details>
+<details><summary>Why does a skipped day not break anything?</summary><p>Meridian counts kept windows; it does not punish skipped ones. Plans of 24 hours or more are fasts you start yourself and are never counted as missed.</p></details>
+
+<h2>Widgets, Live Activity and reminders</h2>
+<details><summary>How do I add the widget?</summary><p>Touch and hold the Home Screen, tap Edit → Add Widget, and choose Meridian. Lock Screen widgets are added the same way from the Lock Screen.</p></details>
+<details><summary>The Live Activity doesn't appear.</summary><p>Check Settings → Meridian → Live Activities on your iPhone, then start a fast again.</p></details>
+<details><summary>Reminders don't arrive.</summary><p>Turn on Reminders in Meridian's Settings, allow notifications when asked, and check Settings → Notifications → Meridian on your iPhone.</p></details>
+
+<h2>Apple Watch, iCloud and Apple Health</h2>
+<details><summary>How do I get Meridian on my Apple Watch?</summary><p>With Premium, open the Watch app on your iPhone and install Meridian under Available Apps. Start and End on the Watch reach the iPhone, even if it was out of range when you pressed them. Add a complication by editing a watch face.</p></details>
+<details><summary>My iPad doesn't show the same log.</summary><p>Turn on iCloud sync in Settings on both devices, signed into the same Apple Account. Changes arrive when Meridian is opened. Weigh-ins read from Apple Health stay on the device that read them; Health brings them to your other devices itself.</p></details>
+<details><summary>Weight doesn't appear in Apple Health.</summary><p>Turn on Apple Health in Meridian's Settings and allow it, or check Settings → Health → Data Access & Devices → Meridian.</p></details>
+
+<h2>Meridian Premium</h2>
+<details><summary>What does Premium add?</summary><p>The pattern coach, the weight trend and goal, insights over 30 days to six months, the year board, measurements and readings, Apple Health, iCloud sync, Apple Watch, three more widget styles and five more themes. The timer, the plan, the log, the month and the basic insights stay free.</p></details>
+<details><summary>What does it cost?</summary><p>$2.99 a month, $15.99 a year with the first week free, or $49.99 once (or the same tier in your currency). Monthly and yearly renew automatically until cancelled; lifetime is a single purchase.</p></details>
+<details><summary>How do I cancel?</summary><p>On your iPhone: Settings → your name → Subscriptions → Meridian Premium. Or in Meridian: Settings → Premium → Manage subscription. Premium stays on until the end of the paid period.</p></details>
+<details><summary>I bought Premium but it's locked.</summary><p>Open Settings and tap Restore purchases while signed into the same Apple Account.</p></details>
+<details><summary>How do I get a refund?</summary><p>Purchases are handled by Apple. Request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></details>
+
+<h2>Your data</h2>
+<details><summary>Moving to a new phone</summary><p>With iCloud sync on, sign in on the new phone and turn sync on. Restoring an iPhone backup also brings the log with it, and Settings → Export backup / Import backup always works.</p></details>
+<details><summary>Deleting everything</summary><p>Settings → Erase this device. Export a backup first if you want a copy.</p></details>
+<footer>Meridian is a timer and a journal. It is not medical care. · <a href="support">Support</a> · <a href="privacy">Privacy</a></footer>
+</main>
+</body>
+</html>
